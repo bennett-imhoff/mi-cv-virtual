@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Louis George';
+    src: url("../fonts/Louis\ George\ Cafe.ttf");
+}
+
+/*HEADER*/
+.contenedor-titulo-portfolio{
+    background-color: #f8f9fa;
+    width:100%;
+    margin-top:56px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.titulo-portfolio{
+    font-size:12px;
+    line-height:normal;
+    padding:0;
+    margin-bottom:8px;
+}
+
+.mi-nombre{
+    font-size:12px;
+}
+
+.menu-desplegado{
+    margin-top:56px;
+}
+
+.link-volver-atras{
+    font-size:12px;
+    margin-bottom:5px;
+}
+
+/*MAIN*/
+.contenedor-informacion{
+    margin-top:56px;
+    background-color: white;
+    width:90%;
+    padding:10%;
+    text-align: justify;
+    text-indent: 10px;
+    border-radius: 5%;
+}
+
+.titulo-subpagina{
+    font-family: 'Louis George';
+    font-size:1.2rem;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (min-width:992px){
+    .contenedor-informacion{
+        width:70%;
+        margin:0;
+        padding: 5%!important;
+        text-indent: 30px;
+    }
+
+    .titulo-subpagina{
+        font-size:1.5rem;
+    }
+
+    .menu-desplegado{
+        margin-top:0;
+    }
+}
+
+@media only screen and (min-width:1280px){
+    .contenedor-informacion{
+        width:70%;
+        margin:0;
+        padding: 3% 5%!important;
+    }
+
+    .titulo-subpagina{
+        font-size:2rem;
+    }
+
+    .contenedor-informacion p{
+        font-size:20px;
+    }
+}
+
+@media only screen and (min-width:1600px){
+    .barra-navegacion{
+        padding:1%;
+    }
+    .contenedor-titulo-portfolio{
+        display:flex;
+        justify-content: center;
+        margin-top:90px;
+        padding-top:1% !important;
+    }
+
+    .titulo-portfolio{
+        font-size:1.5rem;
+    }
+
+    .mi-nombre{
+        font-size:1.8rem;
+    }
+
+    .titulo-subpagina{
+        font-size:2.5rem;
+    }
+
+    .contenedor-informacion p{
+        font-size:35px;
+    }
+}

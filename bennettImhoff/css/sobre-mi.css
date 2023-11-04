@@ -1,0 +1,14 @@
+@media only screen and (min-width:600px){
+    .contenedor-informacion{
+        max-height:65%;
+        overflow-y: scroll;
+        padding-top:5%;
+        padding-bottom:2%;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .contenedor-informacion{
+        margin-top:5%;
+    }
+}

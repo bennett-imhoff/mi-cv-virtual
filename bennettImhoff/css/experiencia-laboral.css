@@ -1,0 +1,62 @@
+.contenedor-informacion{
+    max-height:65%;
+    overflow-y: scroll;
+    padding-bottom:0 !important;
+}
+
+.lista-trabajos{
+    list-style: none;
+    text-align: justify;
+    text-indent: 0;
+    padding:0;
+}
+
+.item-trabajo:not(:last-child){
+    border-bottom:1px solid grey;
+}
+
+.titulo-trabajo{
+    font-family: 'Louis George';
+    font-size:14px;
+}
+
+.item-trabajo p{
+    font-size:12px;
+}
+
+@media only screen and (min-width:600px){
+    .contenedor-informacion{
+        padding-top:5%;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .contenedor-informacion{
+        margin-top:5%;
+        padding-top:3%!important;
+    }
+
+    .titulo-trabajo{
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width:1280px){
+    .titulo-trabajo{
+        font-size:1.5rem;
+    }
+
+    .item-trabajo p{
+        font-size:20px;
+    }
+}
+
+@media only screen and (min-width:1600px){
+    .titulo-trabajo{
+        font-size:35px;
+    }
+
+    .item-trabajo p{
+        font-size:25px;
+    }
+}

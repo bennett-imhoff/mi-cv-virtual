@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Lemon Friday';
+    src: url("../fonts/Lemon\ Friday.ttf");
+}
+
+@font-face {
+    font-family: 'Caviar';
+    src: url("../fonts/CaviarDreams.ttf");
+}
+
+/*HEADER*/
+.barra-navegacion{
+    position:absolute;
+    width:100%;
+}
+
+.link-inicio{
+    margin-left:20px;
+}
+
+.texto-menu{
+    padding-right:3%;
+    font-size:12px;
+    font-family: 'Caviar';
+    font-weight:bold;
+}
+
+.btn-menu-hamburguesa:focus{
+    outline: 0 !important;
+}
+
+/*MAIN*/
+body{
+    background-color: black;
+}
+
+.contenido-principal{
+    height:100vh;
+    background: url('../img/background-index.jpg') no-repeat center center/cover;
+}
+
+.btn-titulo{
+    padding:15% 20% 10% 10%;
+    background-color: white;
+    border-radius:5%;
+    border:none;
+}
+
+.titulo-portfolio{
+    font-family: 'Caviar';
+    color: rgb(44, 40, 40);
+    padding:10% 5%;
+    text-align: center;
+    font-size:1rem;
+    line-height: 1.5;
+    font-weight:bold;
+}
+
+.mi-nombre{
+    font-family: 'Lemon Friday';
+    font-size:2rem;
+}
+
+/*FOOTER*/
+.pie-de-pagina{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+}
+
+.img-contacto{
+    width:24px;
+    margin:0 5%;
+    filter: invert(100%);
+}
+
+.nombre-completo{
+    color:white;
+    margin:5px 0;
+}
+
+@media only screen and (min-width:600px){
+    .img-contacto{
+        width:18px;
+        margin:0 2%;
+    }
+
+    .nombre-completo{
+        font-size:14px;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .navegacion-extendida{
+        margin:auto !important;
+    }
+
+    .navegacion-extendida .nav-item:not(:first-child){
+        margin-left:25px;
+    }
+
+    .navegacion-extendida .nav-item:not(:last-child){
+        margin-right:25px;
+    }
+
+    .contenido-principal a{
+        width:70%;
+    }
+
+    .btn-titulo{
+        padding:5% 10%;
+    }
+
+    .titulo-portfolio{
+        font-size:1.5rem;
+    }
+    
+    .mi-nombre{
+        font-size:2.5rem;
+    }
+
+    .nombre-completo{
+        font-size:16px;
+    }
+}
+
+@media only screen and (min-width:1280px){
+    .img-contacto{
+        width:24px;
+        margin:0 1%;
+    }
+
+    .nombre-completo{
+        font-size:18px;
+    }
+
+    .navegacion-extendida .nav-link{
+        font-size:22px;
+    }
+}
+
+@media only screen and (min-width:1600px){
+    .navegacion-extendida .nav-link{
+        font-size:30px;
+    }
+
+    .contenido-principal a {
+        min-width: 130%;
+    }
+
+    .titulo-portfolio{
+        width:400px;
+        font-size:2.5rem;
+    }
+
+    .mi-nombre{
+        font-size:4rem;
+    }
+
+    .img-contacto{
+        width:35px;
+        margin:0 1%;
+    }
+
+    .nombre-completo{
+        font-size:24px;
+    }
+}
